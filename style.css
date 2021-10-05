@@ -14,7 +14,7 @@ body{
    margin: 30px auto;
    width: 350px;
 }
-.Balance{
+.balance-h1{
     margin: initial;
 }
 .balance-name{
@@ -59,7 +59,7 @@ div.container-balance > div:first-of-type{
 .div-tansaction > div:first-of-type{
     border-top: 1px solid #c0bfbf;
 }
-.form{
+#form{
     width: 350px;
     margin: 0 0;
 }

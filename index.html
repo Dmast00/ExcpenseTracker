@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Expense Tracker</title>
 </head>
 <body>
     <h1>Expense tracker</h1>
     <div class="container balance">
-        <h3 class="balance-name">Balance</h3>
-        <h1 class="Balance">$0.00</h1>
+        <h3  class="balance-name">Balance</h3>
+        <h1 id="balance" class="balance-h1">$0.00</h1>
     </div>
     <div class="container container-balance">
         <div>
@@ -26,7 +27,7 @@
     </div>
     <div class="div-history">
         <h2 class="hisory">History</h2>
-        <div class="history-movements">
+        <div id="list" class="history-movements">
     
         </div>        
     </div>
@@ -36,14 +37,15 @@
 
         </div>
     </div>
-
-    <div class="form">
-        <h4>Text</h4>
-        <input id="text-input" type="text" placeholder="enter text...">
-        <h4>Amount</h4>
-        <input id="amount-input" type="number" placeholder="enter price..." >
-        <button class="btn"> Add </button>
-    </div>
-        
+    <form id="form">
+        <div class="form-control">
+            <label for="text-input">Text</label>
+            <input id="text-input" type="text" placeholder="enter text...">
+            <label for="amount-input">Amount</label>    
+            <input id="amount-input" type="number" placeholder="enter price..." >
+            <button type="submit" class="btn">add</button>
+        </div>
+    </form>       
 </body>
+<script src="script.js"></script>
 </html>
