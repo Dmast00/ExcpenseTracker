@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root{
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); 
+}
+body{
+    background:#E6E6E6 ;
+    font-family: 'Lato',sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+   margin: 30px auto;
+   width: 350px;
+}
+.Balance{
+    margin: initial;
+}
+.balance-name{
+    margin: initial;
+}
+div.container-balance{
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 0;
+}
+div.container-balance > div{
+    flex: 1;
+    text-align: center;
+}
+div.container-balance > div:first-of-type{
+    border-right: 1px solid #dedede;
+}
+#income{
+    color: rgba(96, 146, 21, 0.767);
+    font-size: 3vh;
+    margin: 0 1px;
+}
+#expense{
+    color: red;
+    font-size: 3vh;
+    margin: 0 1px;
+}
+.hisory{
+    width: 350px;
+    
+}
+.div-history >div:first-of-type{
+    border-top: 1px solid #c0bfbf;
+}
+.transaction{
+    width: 350px;
+
+}
+.div-tansaction > div:first-of-type{
+    border-top: 1px solid #c0bfbf;
+}
+.form{
+    width: 350px;
+    margin: 0 0;
+}
+input[type='text'],
+input[type='number']{
+    border:1px solid #dedede;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.btn{
+    cursor: pointer;
+    background: #9c88ff;
+    box-shadow: var(--box-shadow);
+    border: 0;
+    margin: 10px 0 30px;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.btn:focus,.delete-btn:focus{
+    outline: 0;
+}
