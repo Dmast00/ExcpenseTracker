@@ -87,3 +87,18 @@ input[type='number']{
 .btn:focus,.delete-btn:focus{
     outline: 0;
 }
+.history-movements{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.history-movements li{
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+}
